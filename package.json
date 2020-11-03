@@ -4,9 +4,7 @@
   "description": "simple proxy",
   "main": "src/index.js",
   "scripts": {
-    "prestart": "nodemon ./src/app1/index.js &",
-    "poststart": "nodemon ./src/app1/index.js &",
-    "start": "nodemon ./src/index.js &",
+    "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

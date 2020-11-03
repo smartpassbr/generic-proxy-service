@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 // TODO: escrever um handler de repasse os requests pro app1 e app2
 
 app.all('/:service', (req, res) => {
-    // Repassar o request
+    // TODO: Repassar o request aqui
     res.status(500).send({
         error: 'not_implemented'
     });

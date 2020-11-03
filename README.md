@@ -27,7 +27,7 @@ Nas pastas `app1` e `app2` encontram-se os dois serviços que devem receber o tr
 
 Para iniciar o projeto pode utilizar o seguinte comando:
 
-`node src/index.js` - inicia o proxy
+`node index.js` - inicia o proxy
 
 `node src/app1/index.js` - inicia o app1
 
