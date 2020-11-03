@@ -35,4 +35,4 @@ Para iniciar o projeto pode utilizar o seguinte comando:
 
 Lembre de iniciar todos os serviços.
 
-Bom trabalho! 🤜🏾
+Bom trabalho!
