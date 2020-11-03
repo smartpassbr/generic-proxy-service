@@ -1,0 +1,26 @@
+{
+  "name": "generic-proxy-service",
+  "version": "1.0.0",
+  "description": "simple proxy",
+  "main": "src/index.js",
+  "scripts": {
+    "prestart": "nodemon ./src/app1/index.js &",
+    "poststart": "nodemon ./src/app1/index.js &",
+    "start": "nodemon ./src/index.js &",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartpassbr/generic-proxy-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartpassbr/generic-proxy-service/issues"
+  },
+  "homepage": "https://github.com/smartpassbr/generic-proxy-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
