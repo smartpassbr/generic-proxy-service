@@ -34,3 +34,5 @@ Para iniciar o projeto pode utilizar o seguinte comando:
 `node src/app2/index.js` - inicia o app2
 
 Lembre de iniciar todos os serviços.
+
+Bom trabalho! 🤜🏾
