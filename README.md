@@ -21,13 +21,13 @@ A ideia é que no futuro tenhamos muitos serviços, e este proxy servirá como g
 
 # Estructura do projeto
 
-Na pasta `src` você encontrará o arquivo `index.js` que contem o código do proxy, no qual você deverá escrever seu código.
+Na pasta `src` você encontrará o arquivo `proxy/index.js` que contem o código do proxy, no qual você deverá escrever seu código.
 
 Nas pastas `app1` e `app2` encontram-se os dois serviços que devem receber o trafego do proxy, escutando nas portas `9001` e `9002`,
 
 Para iniciar o projeto pode utilizar o seguinte comando:
 
-`node index.js` - inicia o proxy
+`node src/proxy/index.js` - inicia o proxy
 
 `node src/app1/index.js` - inicia o app1
 
@@ -36,3 +36,6 @@ Para iniciar o projeto pode utilizar o seguinte comando:
 Lembre de iniciar todos os serviços.
 
 Bom trabalho!
+
+### Informações adicionais
+Cada pasta dentro da pasta `src` contem um projeto npm, lembre de instalar as dependências com npm install para poder rodar o projeto corretamente.
